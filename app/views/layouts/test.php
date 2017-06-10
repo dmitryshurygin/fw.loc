@@ -13,13 +13,6 @@
   </head>
   <body>
       <div class="container">
-          <?php if(!empty($menu)): ?>
-          <ul class="nav nav-pills">
-            <?php foreach ($menu as $item) : ?>
-            <li><a href="category/<?= $item['id'] ?>"><?= $item['title'] ?></a></li>
-            <?php endforeach; ?>
-          </ul>
-          <?php endif; ?>
           <h1>Hello, world!</h1>
           <?=$content?>
       </div>
